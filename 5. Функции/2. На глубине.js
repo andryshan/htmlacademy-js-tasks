@@ -1,6 +1,8 @@
 var calculatePressure = function(fluidDensity, depth){
   return Math.round(fluidDensity * 9.8 * depth);
 }
+calculatePressure(1000, 5); //49000
+
 /* Техническое задание
 
 Мяу! Напиши функцию calculatePressure, которая будет считать давление на глубине и возвращать это значение из функции.

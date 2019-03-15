@@ -10,6 +10,7 @@ var getDiet = function(dishesCaloriesArray, limitCaloriesDay){
   }
   return i - 1;
 }
+getDiet([10, 20, 30, 40, 90], 100); //4
 
 /* Техническое задание
 

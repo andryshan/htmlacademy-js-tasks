@@ -17,6 +17,7 @@ var calculate = function(firstNumber, secondNumber, operator){
   return result;
 }
 
+calculate(15, 20, '+'); //35
 /* Техническое задание
 
 Мяу! Напиши функцию calculate, которая будет распознавать пользовательский ввод, совершать математические операции и возвращать результат.

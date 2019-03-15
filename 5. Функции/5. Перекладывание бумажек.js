@@ -11,7 +11,7 @@ var getDocumentsNumbers = function(documentsArray, year){
   }
   return result;
 }
-
+getDocumentsNumbers(["01112018","20092017","05102017","12052018","04072005","02022018"], 2018); //3
 
 /* Техническое задание
 
